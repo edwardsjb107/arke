@@ -82,5 +82,11 @@ namespace Arke.Steps.PlayValueStep
                 call.CallState.AddStepToOutgoingQueue(step.GetStepFromConnector(NextStep));
             return Task.CompletedTask;
         }
+
+        private static Task PlayFacilityValue(Step step, ICall call, PlayValueStepSettings stepSettings)
+        {
+            throw new NotImplementedException("not supported yet");
+
+        }
     }
 }
